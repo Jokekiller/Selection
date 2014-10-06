@@ -6,7 +6,10 @@ print("This programme will see if an entered number is within a range")
 enteredNumber = int(input("Give a number: "))
 if enteredNumber >= 21 and enteredNumber <=29:
     print("Number within range")
-else :
-    print("Number not in range")
+elif enteredNumber < 21:
+    print("Number below range")
+elif enteredNumber > 29:
+    print("number above range")
+        
 
     
