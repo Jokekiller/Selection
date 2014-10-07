@@ -27,7 +27,10 @@ if month == 11:
     print("November")
 if month == 12:
     print("December")
-else:
+if month > 12:
     print("Number is to big")
+if month < 1:
+    print("Number is to small")
+    
     
     
