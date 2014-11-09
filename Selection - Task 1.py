@@ -2,11 +2,16 @@
 #29-09-2014
 #Improving code in selection
 
-#john bain
+#Harry Robinson
 #selection improvement exercise
 #26-06-12
 
 month = int(input("Please enter a month as a number between 1-12: "))
+year = int(input("Give the year: "))
+if year % 4 == 0:
+    print("Year is a leap year")
+else:
+    print("Not a leap year")
 if month == 1:
     print("The month you entered is January")
 if month == 2:
